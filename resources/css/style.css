@@ -7,12 +7,12 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0px;
 }
 
 /* Header Style */
 
 header {
-  margin-left: 10px;
   border-bottom: 1px solid seashell;
   display: flex;
   position: fixed;
@@ -21,10 +21,12 @@ header {
   z-index: 1px;
   align-items: center;
   text-align: right;
+  background-color: black;
 }
 
 header img {
   height: 50px;
+  margin-left: 10px;
 }
 
 .top-nav {
@@ -36,4 +38,38 @@ a {
   text-decoration: underline;
   color: Seashell;
   margin: 10px;
+}
+
+/* Content Style */
+
+div {
+    display: block;
+}
+
+h2 h4 {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  margin: 0 auto 80px auto;
+  padding-top: 70px;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+#mission .copy {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
