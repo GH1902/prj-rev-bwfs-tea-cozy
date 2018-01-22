@@ -77,7 +77,6 @@ h2 h4 {
 #featured {
   width: 1000px;
   margin: auto;
-
 }
 
 .menu {
@@ -95,4 +94,29 @@ h2 h4 {
   height: 200px;
   width: 300px;
   padding: 10px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.locations {
+  display: ;
+  justify-content: space-around;
+}
+
+.location-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 300px;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  padding:10px;
+  margin: 5px 20px;
 }
