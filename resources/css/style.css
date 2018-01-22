@@ -1,7 +1,7 @@
 /* Universal Style */
 
 body {
-  font-family: Helvetica sans-serif;
+  font-family: Helvetica;
   font-size: 22px;
   color: Seashell;
   background-color: black;
@@ -72,4 +72,27 @@ h2 h4 {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+#featured {
+  width: 1000px;
+  margin: auto;
+
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.menu-item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
 }
